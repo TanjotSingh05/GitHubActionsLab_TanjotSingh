@@ -2,8 +2,9 @@
 name: Workflow 2 - Multi-Platform Testing
 
 on:
-  pull_request:
-    branches: ["master"]
+  push:
+    branches:
+      - master
 
 jobs:
   ubuntu-job:
