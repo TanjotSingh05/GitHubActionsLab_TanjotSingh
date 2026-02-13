@@ -2,8 +2,9 @@
 name: Workflow 1 - Dependent Jobs (Build → Test → Deploy)
 
 on:
-  pull_request:
-    branches: ["master"]
+  push:
+    branches:
+      - master
 
 jobs:
   build:
