@@ -44,5 +44,5 @@ jobs:
       - name: Simulate deployment
         run: |
           echo "Publishing artifacts..."
-          sleep 3
+          sleep 5
           echo "Deployment completed."
